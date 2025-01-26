@@ -2,7 +2,6 @@
 import React, { useRef, useEffect } from 'react'
 import { Button } from '../ui/button';
 import { Menu } from 'lucide-react'
-import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from '../ui/navigation-menu';
 import Link from 'next/link';
 export default function MobileMenu() {
     const menu = useRef<HTMLUListElement | null>(null);
